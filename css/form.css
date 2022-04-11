@@ -1,0 +1,120 @@
+#contato{
+    min-height: 100vh;
+    height: auto;
+    background-image: url('../img/bg-contato.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+#participar{
+    min-height:100vh;
+    height:auto;
+    background-image:url('../img/bg-sol.png');
+    background-position:center;
+    background-size:cover;
+    padding-bottom:40px;
+    background-attachment:fixed;
+}
+
+.inicio-form{
+    padding: 90px 0 0 60px;
+}
+
+.inicio-form h1{
+    font-size: 55px;
+    color: whitesmoke;
+    font-family: 'Federant';
+}
+
+.inicio-form p{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Raleway';
+    margin: 15px 0 0 5px;
+}
+
+#container-contato{
+    width: 90%;
+    background: rgba(0, 13, 58, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+     backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 30px;
+}
+
+#container-solicitacao{
+    width: 90%;
+    background: rgba(61, 61, 61, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+     backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 30px;
+}
+
+.container-form form{
+    padding: 30px;
+}
+
+.flex-form{
+    display: flex;
+    width: 100%;
+}
+
+.flex-form .div-form{
+    width: 50%;
+}
+
+.flex-f1 input{
+    width: 95%!important;
+}
+
+.div-form{
+    margin-bottom: 20px;
+}
+
+.div-form label{
+    display: block;
+    font-family: 'Federant';
+    font-size: 30px;
+}
+
+#container-contato label{
+    color: rgb(159, 174, 230);
+}
+
+#container-solicitacao label{
+    color:whitesmoke;
+}
+
+.div-form input, .div-form textarea, .div-form select{
+    margin-top: 5px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding: 5px;
+}
+
+.div-form textarea{
+    min-height: 250px;
+}
+
+.button-form button{
+    font-family: 'Raleway';
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    transition: 0.3s background-color;
+}
+
+.button-form button:hover{
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+}

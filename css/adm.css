@@ -1,0 +1,282 @@
+body{
+    background-color: whitesmoke;
+}
+
+#container-mensagens, #container-solicitacao, #container-users{
+    padding-top: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0 30px 0 30px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #444444;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav li a:hover{
+    color: rgb(0, 0, 124);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: unset;
+    color: red;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s background-color;
+}
+
+nav button span{
+    margin-left: 10px;
+}
+
+nav button:hover{
+    background-color: rgba(216, 216, 216, 0.5);
+}
+
+
+.titulo-adm{
+    color: #535353;
+    padding: 30px 0 0 30px;
+    font-family: 'Raleway';
+    font-size: 40px;
+}
+
+#mensagens, #solicitacoes, #users{
+    padding: 30px 30px 30px 40px;
+}
+
+.mensagem, .solicitacao{
+    background-color: hsl(0, 0%, 79%);
+    width: 97%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+}
+
+
+.mensagem h2{
+    color: #444444;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.mensagem a{
+    color: #444444;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.mensagem a:hover{
+    color: rgb(70, 70, 184);
+}
+
+.mensagem p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: black;
+}
+
+.mensagem .msg-delete{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mensagem .msg-delete span{
+    transition: 0.1s color;
+}
+
+.mensagem .msg-delete span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.head-solicitacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-solicitacao h2{
+    font-size: 20px;
+}
+
+.head-solicitacao span{
+    font-size: 30px;
+}
+
+.body-solicitacao p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.action-solicitacao span:nth-child(1):hover{
+    cursor: pointer;
+}
+
+.action-solicitacao :nth-child(2){
+    color: #757575;
+    transition: 0.2s color;
+}
+
+.action-solicitacao :nth-child(2):hover{
+    color: red;
+}
+
+#container-delete{
+    height:100vh;
+    align-items: center;
+}
+
+.modal-delete{
+    background-color: whitesmoke;
+    padding:40px;
+    height: 35vh;
+    width: 45vw;
+}
+
+.modal-delete p{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+    line-height: 35px;
+    color: #535353;
+    margin-top: 30px;
+}
+
+.modal-delete .options-delete{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.options-delete button{
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    font-family: 'Raleway';
+    font-size: 25px;
+    padding: 20px;
+    width: 150px;   
+    color: white;
+    transition: 0.3s background-color;
+    cursor: pointer;
+}
+
+.yes-del{
+    background-color: red;
+}
+
+.yes-del:hover{
+    background-color: #b80000;
+}
+
+.no-del{
+    background-color:#fbcd00 ;
+}
+
+.no-del:hover{
+    background-color: #d1ab00;
+}
+
+.no-register{
+    padding-top: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-register{
+    color: #757575;
+}
+
+.no-register span{
+    font-size: 150px;
+}
+
+.no-register p{
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+#adm-form div{
+    margin-top: 20px;
+}
+
+#adm-form label{
+    display: block;
+    font-family: 'Raleway';
+    font-size: 22px;
+    color:#535353;
+    margin-bottom: 5px;
+}
+
+#adm-form input{
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    border-bottom: solid 1px #757575;
+    width: 90%;
+    font-size: 25px;
+    font-family: 'Raleway';
+    background-color: unset;
+    transition: 0.3s border-bottom, 0.3s width;
+}
+
+#adm-form input:focus{
+    border-bottom: solid 1px black;
+    width: 95%;
+}
+
+#button-users{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#button-users button{
+    border: 0;
+    outline: 0;
+    font-family: 'Raleway';
+    font-size: 18px;
+    padding: 20px;
+    background-color: #444444;
+    color: white;
+    transition: 0.3s background-color;
+}
+
+#button-users button:hover{
+    background-color: black;
+    cursor: pointer;
+}

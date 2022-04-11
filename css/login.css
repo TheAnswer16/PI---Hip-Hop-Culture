@@ -1,0 +1,59 @@
+#container-login{
+    display: flex;
+
+}
+
+#just-img, #login{
+    width: 50vw;
+    height: 100vh;
+}
+
+#just-img{
+    background-image: url('../img/bg-login.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#login{
+    background-color: black;
+}
+
+#login-title{
+    padding: 40px 0 0 30px;
+    color: white;
+    font-family: 'Federant';
+    font-size: 40px;
+}
+
+#login form{
+    margin-top: 80px;
+    padding: 0 0 0 30px;
+}
+
+.login-div{
+    margin-top: 30px;
+}
+
+.login-div label{
+    display: block;
+    color: white;
+    font-family: 'Federant';
+    font-size: 30px;
+}
+
+.login-div input{
+    margin-top: 10px;
+    outline: 0;
+    border:0;
+    width: 95%;
+    color: rgb(63, 63, 63);
+    font-family: 'Raleway';
+    padding: 5px;
+    font-size: 20px;
+    transition: 0.3s border-bottom;
+}
+
+
+#login form button{
+    margin-top: 30px;
+}
